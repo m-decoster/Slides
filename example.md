@@ -1,7 +1,7 @@
 ---
 marp: true
 paginate: true
-theme: style
+theme: mdc
 footer: Mathieu De Coster, IDLab-AIRO -- Ghent University -- imec
 ---
 
@@ -41,3 +41,9 @@ Let's put it on an orange background.
 ![bg right contain](https://users.ugent.be/~mcdcoste/assets/learningcurve.png)
 ![bg](rgb(255,128,0))
 ![](rgb(255,255,255))
+
+---
+
+# SVG
+
+![](plot1.svg)
