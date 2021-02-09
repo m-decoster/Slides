@@ -26,10 +26,17 @@ section.lead {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    text-align: center;
+}
+
+section.lead h1 {
+    border-bottom: 5px solid #e23d28;
 }
 
 section.lead footer {
+    visibility: hidden;
+}
+
+section.nofooter footer {
     visibility: hidden;
 }
 
