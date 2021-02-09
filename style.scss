@@ -1,0 +1,53 @@
+/* @theme style */
+
+@import 'default';
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+section {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fcfcfc;
+
+    width: 1280px;
+    height: 720px;
+
+    line-height: 1.35;
+    font-size: 35px;
+    padding: 70px;
+    word-wrap: break-word;
+    letter-spacing: 1.25px;
+
+    display: block;
+}
+
+/* Use <!-- _class: lead --> for lead slides */
+section.lead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+section.lead footer {
+    visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1.25px;
+    color: black;
+}
+
+/* Styling page number */
+section::after {
+    color: gray;
+}
+
+header,
+footer {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  height: 20px;
+}
